@@ -1,0 +1,7 @@
+function [images, descriptors] = load_images(path)
+airplanes_test = dir(path+'_test/*.jpg');
+airplanes_train = dir(path+'_train/*.jpg');
+
+
+
+end
